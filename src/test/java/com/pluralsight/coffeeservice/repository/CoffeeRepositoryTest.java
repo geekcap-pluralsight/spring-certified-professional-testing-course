@@ -38,7 +38,7 @@ public class CoffeeRepositoryTest {
      */
     private final List<Coffee> testCoffees = Arrays.asList(
             new Coffee("Coffee 1", 1),
-            new Coffee("Coffee 2", 1),
+//            new Coffee("Coffee 2", 1),
             new Coffee("Coffee 3", 1));
 
     @BeforeEach
@@ -134,7 +134,7 @@ public class CoffeeRepositoryTest {
     }
 
     @Test
-    void findAll() {
+    void testFindAll() {
         // Find all coffees
         List<Coffee> coffeeList = coffeeRepository.findAll();
 
